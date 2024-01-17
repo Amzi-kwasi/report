@@ -1,0 +1,313 @@
+
+		@charset "UTF-8";
+        /******* Bootstrap Theming ********/
+        @import "https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap";
+        /*!
+         * Bootstrap v4.5.3 (https://getbootstrap.com/)
+         * Copyright 2011-2020 The Bootstrap Authors
+         * Copyright 2011-2020 Twitter, Inc.
+         * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+         */
+        :root {
+          --blue: #007bff;
+          --indigo: #6610f2;
+          --purple: #6f42c1;
+          --pink: #e83e8c;
+          --red: #dc3545;
+          --orange: #fd7e14;
+          --yellow: #ffc107;
+          --green: #28a745;
+          --teal: #20c997;
+          --cyan: #17a2b8;
+          --white: #fff;
+          --gray: #6c757d;
+          --gray-dark: #343a40;
+          --primary: #E45F4E;
+          --secondary: #262626;
+          --success: #28a745;
+          --info: #17a2b8;
+          --warning: #ffc107;
+          --danger: #dc3545;
+          --light: #ffffff;
+          --dark: #343a40;
+          --breakpoint-xs: 0;
+          --breakpoint-sm: 576px;
+          --breakpoint-md: 768px;
+          --breakpoint-lg: 992px;
+          --breakpoint-xl: 1200px;
+          --font-family-sans-serif: "Raleway", sans-serif;
+          --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        }
+        
+        *,
+        *::before,
+        *::after {
+          box-sizing: border-box;
+        }
+        
+        
+        
+        
+        body {
+          margin: 0;
+          font-family: sans-serif;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #848484;
+          background-color: #ffffff;
+        }
+        
+        
+        .input-container input {
+            border: none;
+            box-sizing: border-box;
+            outline: 0;
+            padding: .75rem;
+            position: relative;
+            width: 100%;
+        }
+        
+        a{
+            text-decoration: none;
+          color: green;
+        }
+        
+#preloader{
+    background-color: #033235;
+    color: wheat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+#preloader p{
+    margin-top: 250px;
+}
+
+.none{
+    display: none;
+}
+
+
+#nav {
+    background-color: #033235;
+        padding: 10px 12px;
+        position: fixed;
+        width: 100%;
+        color: wheat;
+        font-family: Sans-Serif;
+        font: bold;
+}
+#nav a{
+  color: wheat;
+}
+
+        .table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+         width: 100%;
+          }
+          td,.th{
+            border: 1px solid black;
+            padding: 2px;
+          }
+          .th-input[type="text"] {
+             padding: 8px;
+          width: 100%;
+          text-align: center;
+          text-transform: uppercase;
+          border: none;
+          }
+      
+      
+          .td-input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border: none;
+          }
+      
+      
+        
+        label{
+          width: 100px;
+          float: left;
+          padding-top: 20px;
+        }
+        .form-control {
+          width: 200px;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          box-sizing: border-box;
+          
+        }
+      
+      
+        fieldset {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 3px;
+          border: 1px solid lightgrey;
+          width: 30px;
+          margin: auto;
+        }
+        .month-input{
+          padding: 8px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        
+        
+
+        
+.hide{
+    display: none;
+  }
+  
+  .show{
+    display: block;
+  }
+  
+  
+.send{
+    background: transparent;
+    color: green;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: 1px solid green;
+    
+}
+
+.clear{
+    padding: 10px 12px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid red;
+}
+.clear:hover{
+    background: red;
+    color: white;
+}
+
+
+:root {
+  --primary-color: #302AE6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #000000;
+  --heading-color: #818cab;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+
+
+}
+
+
+
+[data-theme="dark"] td,.th{
+    border: 1px solid lightgrey;
+  }
+
+
+[data-theme="dark"] .clear{
+  color: white !important;
+  transition: 0.5s;
+}
+
+
+[data-theme="dark"] body{
+color: white;
+background-color: #000000;
+} 
+
+[data-theme="dark"] fieldset{
+background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .th{
+background-color: #262626;
+color: white;
+}
+
+[data-theme="dark"] input{
+background-color: #262626;
+color: white;
+}
+
+[data-theme="dark"] textarea{
+background-color: #262626;
+color: white;
+}
+
+[data-theme="dark"] .table{
+background-color: #262626;
+}
+
+
+
+
+.theme-switch {
+      height: 34px;
+      position: fixed;
+      bottom: 60px;
+      width: 30px;
+  }
+
+
+.theme-switch input {
+display:none;
+}
+
+.slider {
+background-color: grey;
+bottom: 0;
+cursor: pointer;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+transition: .4s;
+}
+
+.slider:before {
+background-color: #fff;
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: 0.5s;
+width: 26px;
+}
+
+input:checked + .slider {
+background-color: grey;
+}
+
+input:checked + .slider:before {
+transform: translateX(26px);
+}
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
