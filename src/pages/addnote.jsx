@@ -24,7 +24,7 @@ export default function Note(){
 <textarea className="note" placeholder="add note +" id="note" onKeyUp={TexN}></textarea>
 
 
-<button style={{position:"fixed", bottom:"30px", right:"20px",padding:"10px 12px",borderRadius:"20px",border:"1px solid green",background:"transparent"}} onClick={()=>{window.location.href="/"}}>Back</button>
+<button style={{position:"fixed", bottom:"30px", right:"20px",padding:"10px 12px",borderRadius:"20px",border:"1px solid green",background:"transparent"}} onClick={()=>{window.location.href="*"}}>Back</button>
         </div>
     )
 }
