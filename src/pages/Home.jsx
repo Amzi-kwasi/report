@@ -1005,7 +1005,7 @@ function Sms(){
   </label>
 </div> 
 
-<button onClick={()=>{window.location.href="addnote"}} className="add">+</button>
+<button onClick={()=>{window.location.href="/addnote"}} className="add">+</button>
     <br />
  <br />
  <button id="clear" onClick={Clear} className="clear">Clear All Data</button>
