@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import "../style/style.css"
+import "../style/style.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -1005,7 +1006,10 @@ function Sms(){
   </label>
 </div> 
 
-<button onClick={()=>{window.location.href="/addnote"}} className="add">+</button>
+
+<Link to="/addnote">
+<button className="add">+</button>
+</Link>
     <br />
  <br />
  <button id="clear" onClick={Clear} className="clear">Clear All Data</button>
