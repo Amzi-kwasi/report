@@ -46,7 +46,17 @@
         }
         
         
-        
+        .input_cal{
+          position: absolute;
+          right: 10px;
+          top: 50px;
+        }
+        .input_cal input{
+          padding: 6px 12px;
+          cursor: pointer;
+          border: none;
+          background: wheat;
+        }
         
         body {
           margin: 0;
@@ -99,6 +109,7 @@
         color: wheat;
         font-family: Sans-Serif;
         font: bold;
+        z-index: 9;
 }
 #nav a{
   color: wheat;
@@ -157,9 +168,28 @@
           padding: 8px;
           text-align: center;
           text-transform: uppercase;
+          margin-top: 90px;
+          overflow-y: scroll;
+          overflow-x: hidden;
         }
         
-        
+       .note{
+        width: 100%;
+        height: 100vh;
+        font-size: 18px;
+       } 
+        .add{
+          position: fixed;
+          right: 20px;
+          bottom: 30px;
+          border-radius: 50%;
+          padding: 10px 16px;
+          font-size: 25px;
+          background: transparent;
+          color: coral;
+          border: none;
+          cursor: pointer;
+        }
 
         
 .hide{
@@ -249,6 +279,12 @@ color: white;
 background-color: #262626;
 color: white;
 }
+
+
+[data-theme="dark"] .input_cal input{
+  background-color: wheat;
+  color: black;
+  }
 
 [data-theme="dark"] textarea{
 background-color: #262626;

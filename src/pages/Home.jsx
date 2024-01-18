@@ -659,7 +659,14 @@ function Sms(){
 <br/>
 <br/>
 <br/>
+<div id="pagecontent">
+<a style={{color:"orangered",fontFamily:"cursive"}} href="https://calendar.google.com/">Calendar</a>
 
+<div className="input_cal">
+<input type="date" />
+</div>
+<br/>
+<br/>
 <div>
   <center>
   <h3 id="date" style={{color:"orange"}}></h3>
@@ -952,15 +959,15 @@ function Sms(){
 
     <legend>Total_Report</legend>
     <div className="form-group">
-     <input  id="hours" style={{padding: "6px 8px", border: "none",background: "transparent"}}  type="text" placeholder="Hours" />
-      <input type="number" name="total" id="hrs-total" className="form-control prc" />
+     <input  id="hours" style={{padding: "6px 8px", border: "none",background: "transparent"}}   placeholder="Hours" readOnly/>
+      <input type="number" name="total" id="hrs-total" className="form-control prc" readOnly/>
     </div>
     <br/>
     <br/>
    
     <div className="form-group">
-       <input id="biS" style={{padding: "6px 8px",border: "none", background: "transparent"}}  type="text" placeholder="Bible-Studies" />
-      <input type="number" name="total" id="bs-total" className="form-control prc" />
+       <input id="biS" style={{padding: "6px 8px",border: "none", background: "transparent"}}   placeholder="Bible-Studies" readOnly/>
+      <input type="number" name="total" id="bs-total" className="form-control prc" readOnly/>
     </div>
     
   </fieldset>
@@ -997,9 +1004,14 @@ function Sms(){
         <div className="slider round"></div>
   </label>
 </div> 
+
+<button onClick={()=>{window.location.href="addnote"}} className="add">+</button>
     <br />
  <br />
  <button id="clear" onClick={Clear} className="clear">Clear All Data</button>
+
+
+ </div>
 
         </div>
 
